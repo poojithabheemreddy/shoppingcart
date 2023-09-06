@@ -1,0 +1,53 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/login.css" />
+    <script src="~/jquery.min.js"></script>
+    <title> Shopping cart login page</title>    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnSubmit").click(function (e) {
+                e.preventDefault();
+                var name=$("#uname").val();
+                var pw=$("#password").val();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/login/GetDetails",
+                    data: {
+                        username: name,
+                        password: pw
+                    },
+                    success: function (response) {
+                        alert("Data successfully inserted");
+                        window.location.href = "/search/Index";
+                    },
+                    failure: function(response){
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert("User not found");
+                    }
+
+                });
+
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <form>
+    <label for="uname">Username</label>
+    <input type="text" id="uname" name="uname">
+    <br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <button id="btnSubmit">Log in</button>
+    <br />
+    <a id="lnkRegister" href="/register/Index">SIGN UP</a>
+    </form>
+</body>
+</html>
+
+

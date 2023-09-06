@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "snTZYvGNj51RRiHbQ0qFCfaMzkqwMsTD9rDTmpeAEQQ=",
+  "Source": "shoppingapplication",
+  "BasePath": "_content/shoppingapplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "shoppingapplication\\wwwroot",
+      "Source": "shoppingapplication",
+      "ContentRoot": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\",
+      "BasePath": "_content/shoppingapplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\css\\login.css",
+      "SourceId": "shoppingapplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\",
+      "BasePath": "_content/shoppingapplication",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\jquery.js",
+      "SourceId": "shoppingapplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\",
+      "BasePath": "_content/shoppingapplication",
+      "RelativePath": "jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery.js"
+    },
+    {
+      "Identity": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\jquery.min.js",
+      "SourceId": "shoppingapplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\",
+      "BasePath": "_content/shoppingapplication",
+      "RelativePath": "jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery.min.js"
+    }
+  ]
+}

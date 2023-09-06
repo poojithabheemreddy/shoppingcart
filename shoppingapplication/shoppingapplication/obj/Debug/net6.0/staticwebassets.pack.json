@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery.js"
+    },
+    {
+      "Id": "E:\\Gitprojects\\Shoppingcart\\shoppingapplication\\shoppingapplication\\wwwroot\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.shoppingapplication.props",
+      "PackagePath": "build\\shoppingapplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.shoppingapplication.props",
+      "PackagePath": "buildMultiTargeting\\shoppingapplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.shoppingapplication.props",
+      "PackagePath": "buildTransitive\\shoppingapplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.shoppingapplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

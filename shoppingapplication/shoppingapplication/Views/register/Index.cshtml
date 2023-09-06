@@ -1,0 +1,30 @@
+﻿@model loginmodel
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Shopping cart login page</title>
+    </head>
+    <body>
+        <form method="post" action="/register/InsertDetails/@Model">
+            <label>NAME</label><br />
+            @Html.TextBoxFor(m => m.useracc_name)
+            <br />
+            <label>AGE</label><br />
+            @Html.TextBoxFor(m => m.useracc_age)
+            <br />
+            <label>GENDER</label><br />
+            @Html.TextBoxFor(m => m.useracc_gender)
+            <br />
+            <label>ADDRESS</label><br />
+            @Html.TextBoxFor(m => m.useracc_address)
+            <br />
+            <label>USERNAME</label><br />
+            @Html.TextBoxFor(m => m.useracc_uname)
+            <br />
+            <label>PASSWORD</label><br />
+            @Html.TextBoxFor(m => m.useracc_password)
+            <br />
+            <input id="btnRegister" type="submit" value="REGISTER"/>
+        </form>
+    </body>
+</html>
